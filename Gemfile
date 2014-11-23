@@ -116,13 +116,11 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'factory_girl_rails'  
   gem 'launchy'
-    gem 'poltergeist'
+  gem 'poltergeist'
   #gem 'debugger'
   gem 'pdf-reader'
   #test de rendimiento
   gem 'rails-perftest'
   gem 'ruby-prof'
-
-
 end
 
