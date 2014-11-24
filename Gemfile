@@ -85,7 +85,7 @@ gem 'jquery-fileupload-rails'
 gem 'therubyracer', :platforms => :ruby
 gem 'wkhtmltopdf-binary'
 gem "pdfkit"
-gem 'best_in_place', github: 'aaronchi/best_in_place' #para la edición en el sitio en con doble click
+# kgem 'best_in_place', github: 'aaronchi/best_in_place' #para la edición en el sitio en con doble click
 gem "breadcrumbs_on_rails"
 gem 'rmagick', :require => 'RMagick'
 gem 'sidekiq'
