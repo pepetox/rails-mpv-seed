@@ -39,26 +39,40 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 ##Server
-# Use unicorn as the app server
+# Use unicorn as the app server, p for port, E for enviroment and -D for daemon
+# unicorn -p 8080 -E production -D 
 gem 'unicorn'
-gem 'puma'
+#gem 'puma'
+
+##For styles
 
 
-#para los mapas
-gem 'geocoder'
-gem 'underscore-rails'
-gem 'gmaps4rails'
+gem 'pure-css-rails'
 
-#para las estadisticas
-gem 'chartkick'
-gem 'groupdate'
 
-#para las busquedas
+#if need geocoding and maps
+# gem 'geocoder'
+# gem 'underscore-rails'
+# gem 'gmaps4rails'
 
-gem "ransack" 
-gem 'sunspot_rails'
-gem 'sunspot_solr' # optional pre-packaged Solr distribution for use in development
+#For charts 
+# gem 'chartkick'
+# gem 'groupdate'
 
+#searching
+
+# gem "ransack" 
+# gem 'sunspot_rails'
+# gem 'sunspot_solr' # optional pre-packaged Solr distribution for use in development
+
+#pagination
+
+#gem 'kaminari'
+
+#Autentification and authoritation
+
+gem 'devise'
+gem 'cancan'
 
 
 gem 'tzinfo', '~> 1.2.2'
@@ -68,11 +82,10 @@ gem 'tzinfo', '~> 1.2.2'
 
 # Use debugger
 
-gem 'kaminari'
 
-gem 'devise'
-gem 'cancan'
-gem 'pure-css-rails'
+
+
+
 gem 'dalli'
 gem 'htmltoword'
 gem 'rubyzip'
