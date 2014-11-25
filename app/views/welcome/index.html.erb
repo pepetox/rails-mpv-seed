@@ -1,30 +1,5 @@
 
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-      <%= link_to t("MPV_Seed"), root_path,class: "pure-menu-heading" %>
 
-      <ul>
-          <li class="pure-menu-selected"><%= link_to t("Home"), root_path %></li>
-          <li><%= link_to "Github", "https://github.com/pepetox/rails-mpv-seed" %></li>
-          <% if user_signed_in? %>
-            <li>
-            <%= current_user.email %>
-            </li>
-            <li>
-            <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
-            </li>
-          <% else %>
-            <li>
-            <%= link_to('Login', new_user_session_path)  %>  
-            </li>
-          <% end %>
-
-            <li><%= link_to "Español", root_path %></li><li><%= link_to "日本語", root_path %> </li> <!-- could be omitted → usability question -->
-<!--             <li><a rel="alternate" href="/pl" hreflang="es" lang="es">Es</a></li>
-            <li><a rel="alternate" href="/de" hreflang="jp" lang="jp">日本語</a></li>
- -->      </ul>
-    </div>
-          </div>
      
  
 
@@ -70,7 +45,7 @@
                     <%=  t("I18n") %>
                 </h3>
                 <p>
-                    <%=  t("This application is in English, Spanish and Japanese.") %>
+                    <%=  t("This application can be readed in three diferent languages.") %>
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
