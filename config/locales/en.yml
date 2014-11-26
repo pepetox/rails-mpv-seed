@@ -25,3 +25,22 @@ en:
   Things: "Things"
   Logout: Logout
   Login: Login
+  MPV_Rails_seed: MPV Rails seed
+  subtitle: "A good start for MPV with authorization and authentication, cucumber ready."
+  github_ionic_mpv_seed: "Made to work with ionic hybrid mpv seed"  
+  features_title: "When you clone the project you have:"
+  BDD_ready: BDD ready
+  BDD_explanation: You have cucumber ready tu run and some integration test.
+  Authorization_and_authentication: Authorization and authentication
+  devise_cancan: Devise and can can are loaden and instaled and prepare to work with cucumber.
+  I18n: I18n
+  I18n_explanation: This application can be readed in three diferent languages.
+  Ionic_friendly: Ionic friendly
+  Ionic_friendly_explanation: If you use the ionic mpv seed you will have also application for tablets and smartphones.
+  go_store_for_demo: Go to the app store and play store to download the demos
+  amazings_mvp:  I hope you learn a lot with this seed and use it for a lot of amazing MVP!!
+  Made_by_pepetox: Made by pepetox
+  template_info: This page is based on the template for lading pages of pure css that was made with love by the YUI Team.
+
+  
+
