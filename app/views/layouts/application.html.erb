@@ -28,9 +28,9 @@
             <%= link_to(t('Login'), new_user_session_path)  %>  
             </li>
           <% end %>
-            <li><%= link_to "English", root_path(locale: "en") unless I18n.locale == 'en' %></li>
-            <li><%= link_to "Español", root_path(locale: "es") unless I18n.locale == 'es' %></li>
-            <li><%= link_to "日本語", root_path(locale: "jp") unless I18n.locale == 'jp'%> </li> <!-- could be omitted → usability question -->
+            <li><%= link_to "English", root_path(locale: "en") unless I18n.locale == :en %></li>
+            <li><%= link_to "Español", root_path(locale: "es") unless I18n.locale == :es %></li>
+            <li><%= link_to "日本語", root_path(locale: "jp") unless I18n.locale == :jp%> </li> <!-- could be omitted → usability question -->
 <!--             <li><a rel="alternate" href="/pl" hreflang="es" lang="es">Es</a></li>
             <li><a rel="alternate" href="/de" hreflang="jp" lang="jp">日本語</a></li>
  -->      </ul>
