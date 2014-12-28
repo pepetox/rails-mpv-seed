@@ -1,6 +1,19 @@
 es:
   hello: "Hello world"
-  MPV_Seed: "MPV Seed"
+  proyect_name: "Mi app Cholona"
+  subtitle: "Crea y gestiona tu propia app"
+  link_description: "Creada por pepetox"
+  features_title: "Características principales"
+  feature_1_title: "Rápido"
+  feature_1_explanation: "En solo unos mínutos tendrás lista tu app para tus clientes, no tienes que perder el tiempo entendiendo como funciona todo esto"
+  feature_2_title: "Fácil"
+  feature_2_explanation: "Gracias a nuestra plataforma web eres tu el que crea y modifica el contenido de la app, desde tu propio ordenador y sin necesidad de ayuda."
+  feature_3_title: "Android, iPhone, iPad"
+  feature_3_explanation: "Nuestra tecnología nos permite estar disponibles para gran cantidad de dispositivos, tanto tabletas como telefonos inteligentes."
+  feature_4_title: "Barato"
+  feature_4_explanation: "Por muy poco dinero al año tendrás una nueva forma de comunicarte con tus clientes y ofrecerles servicios personalizados"
+  go_store_for_demo: "Bajaté la app y míra como otros ya han creado sus apps"
+  template_info: Pepetox 2014, todos los derechos reservados
   Things: "Cosas"
   Logout: Cerrar sesión
   Login: Entrar
