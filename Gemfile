@@ -81,27 +81,28 @@ gem 'tzinfo', '~> 1.2.2'
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
+gem 'nokogiri'
 
 
 
 
 
-gem 'dalli'
-gem 'htmltoword'
-gem 'rubyzip'
-gem 'zip-zip'
-gem 'execjs' 
-gem 'carrierwave'
-gem 'ckeditor'
-gem 'mini_magick'
-gem 'jquery-fileupload-rails'
+#gem 'dalli'
+#gem 'htmltoword'
+#gem 'rubyzip'
+#gem 'zip-zip'
+#gem 'execjs' 
+#gem 'carrierwave'
+#gem 'ckeditor'
+#gem 'mini_magick'
+#gem 'jquery-fileupload-rails'
 gem 'therubyracer', :platforms => :ruby
-gem 'wkhtmltopdf-binary'
-gem "pdfkit"
+#gem 'wkhtmltopdf-binary'
+#gem "pdfkit"
 # kgem 'best_in_place', github: 'aaronchi/best_in_place' #para la edición en el sitio en con doble click
-gem "breadcrumbs_on_rails"
-gem 'rmagick', :require => 'RMagick'
-gem 'sidekiq'
+#gem "breadcrumbs_on_rails"
+#gem 'rmagick', :require => 'RMagick'
+#gem 'sidekiq'
 
 
 group :development do
