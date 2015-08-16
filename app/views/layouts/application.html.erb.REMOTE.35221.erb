@@ -11,32 +11,6 @@
 <div class="header">
 
 
-<<<<<<< HEAD
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-      <%= link_to t("proyect_name"), root_path,class: "pure-menu-heading" %>
-
-      <ul>
-          <li class="pure-menu-item pure-menu-selected"><%= link_to t("Things"), things_path if user_signed_in? %></li>
-          <li class="pure-menu-item"><%= link_to "Github", "https://github.com/pepetox/rails-mpv-seed" %></li>
-          <% if user_signed_in? %>
-            <li class="pure-menu-item">
-            <%= current_user.email %>
-            </li>
-            <li class="pure-menu-item">
-            <%= link_to(t('Logout'), destroy_user_session_path, :method => :delete) %>        
-            </li>
-          <% else %>
-            <li class="pure-menu-item">
-            <%= link_to(t('Login'), new_user_session_path)  %>  
-            </li>
-          <% end %>
-            <li class="pure-menu-item"><%= link_to "English", root_path(locale: "en") unless I18n.locale == :en %></li>
-            <li class="pure-menu-item"><%= link_to "Español", root_path(locale: "es") unless I18n.locale == :es %></li>
-            <li class="pure-menu-item"><%= link_to "日本語", root_path(locale: "jp") unless I18n.locale == :jp%> </li> <!-- could be omitted → usability question -->
-<!--             <li><a rel="alternate" href="/pl" hreflang="es" lang="es">Es</a></li>
-            <li><a rel="alternate" href="/de" hreflang="jp" lang="jp">日本語</a></li>
- -->      </ul>
-=======
     <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><%= link_to t("MPV_Seed"), root_path, class: "brand-logo" %>
 
@@ -65,7 +39,6 @@
         
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
->>>>>>> feature/cambio_por_material_desing
     </div>
   </nav>
 </div>
