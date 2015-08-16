@@ -1,11 +1,9 @@
 source 'https://rubygems.org'
 
-#Ruby versión
-ruby '2.0.0'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.4'
-
+gem 'rails'
 #--------DATABASE------
 # Use mysql as the database for Active Record
 #gem 'mysql2'
@@ -16,7 +14,7 @@ gem 'sqlite3'
 
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -47,8 +45,8 @@ gem 'unicorn'
 ##For styles
 
 
-gem 'pure-css-rails'
-
+#gem 'pure-css-rails'
+gem 'materialize-sass'
 
 #if need geocoding and maps
 # gem 'geocoder'
