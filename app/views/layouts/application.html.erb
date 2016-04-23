@@ -34,10 +34,6 @@
           <li><%= link_to "日本語", root_path(locale: "jp") unless I18n.locale == :jp%> </li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li class="pure-menu-selected"><%= link_to t("Things"), things_path if user_signed_in? %></li>
-        
-      </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
     </div>
